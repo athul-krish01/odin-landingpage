@@ -198,6 +198,50 @@ a{
     line-height: 160%;
   }
   
+  .section-testimonials{
+    background-color: #CBD4A8;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-heading{
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .client-image{
+    width: 72px;
+    height: 72px;
+  }
+
+  .testimonial-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px;
+
+  }
+  .client-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  .tesimonial-content{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px 0px 16px 0px;
+    width: 70%;
+  }
+
+  .client-name{
+    font-size: 18px;
+    align-self: self-end;
+  }
 
 
